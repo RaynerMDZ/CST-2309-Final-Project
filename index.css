@@ -3,6 +3,7 @@ body {
     padding-top: 3rem;
     padding-bottom: 3rem;
     color: #5a5a5a;
+    height:100vh;
 }
 
 .carousel {
@@ -104,4 +105,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.footer {
 }
