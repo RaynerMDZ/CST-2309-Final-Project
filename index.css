@@ -95,7 +95,7 @@ body {
 
 .parallax {
     /* The image used */
-    background-image: url("/assets/carrousel-assets/alex-shaw-8Naac6Zpy28-unsplash.jpg");
+    background-image: url("assets/carrousel-assets/alex-shaw-8Naac6Zpy28-unsplash.jpg");
 
     /* Full height */
     height: 100%;
@@ -107,5 +107,8 @@ body {
     background-size: cover;
 }
 
-.footer {
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
 }

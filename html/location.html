@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../css/location.css">
+
+    <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwzALxUPNbatRBj3Xi1Uhp0fFzwWNBkE&callback=initMap&libraries=&v=weekly"
+            defer></script>
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark text-light pt-2 pb-2 mb-5">
+        <div class="container-fluid">
+
+            <a class="navbar-brand text-light" href="#">RM GYM</a>
+            <button class="navbar-toggler text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+
+                <a class="nav-link text-light" aria-current="page" href="../index.html">Home</a>
+
+                <a class="nav-link text-light " href="../html/about-us.html">About Us</a>
+
+
+                <a class="nav-link text-light" href="../html/contact-us.html">Contact Us</a>
+
+                <a class="nav-link text-light" href="../html/location.html">Location</a>
+
+                <a class="nav-link text-light" href="../html/register.html">Register</a>
+
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+    <div class="container">
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading text-dark">We Are Closer Than Ever.<h3 class="text-muted">Give us a visit!</h3></h2>
+                <p class="lead text-dark">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+<!--                <img src="assets/main/michael-demoya-qZFDRMRr1ak-unsplash.jpg" width="500" height="500" alt="">-->
+                <div id="map"></div>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+    </div>
+
+    <div class="mt-5 pt-5 pb-5 footer bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-xs-12 about-company">
+                    <h2 class="text-light ">Ray Mendez GYM</h2>
+                    <p class="pr-5 text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis </p>
+                    <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
+                </div>
+                <div class="col-lg-3 col-xs-12 links">
+                    <h4 class="mt-lg-0 mt-sm-3 text-light">Links</h4>
+                    <ul class="m-0 p-0 ">
+                        <li><a href="html/about-us.html" class="text-decoration-none text-light">About Us</a></li>
+                        <li><a href="#pricing" class="text-decoration-none text-light">Pricing</a></li>
+                        <li><a href="html/contact-us.html" class="text-decoration-none text-light">Contact Us</a></li>
+                        <li><a href="html/location.html" class="text-decoration-none text-light">Location</a></li>
+                        <li><a href="html/register.html" class="text-decoration-none text-light">Register</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-xs-12 location">
+                    <h4 class="mt-lg-0 mt-sm-4 text-light"><a href="html/location.html" class="text-decoration-none text-light">Location</a></h4>
+                    <p class="text-light">22, Lorem ipsum dolor, consectetur adipiscing</p>
+                    <p class="mb-0 text-light"><i class="fa fa-phone mr-3"></i>(541) 754-3010</p>
+                    <p class="text-light" <i class="fa fa-envelope-o mr-3 text-light"></i>info@hsdf.com</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col copyright">
+                    <p class=""><small class="text-white-50">RaynerMDZ © 2020. All Rights Reserved.</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script async src="../index.js"></script>
+<script src="../javascript/location.js"></script>
+<script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -25,11 +25,11 @@
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
 
-                <a class="nav-link text-light" aria-current="page" href="#">Home</a>
+                <a class="nav-link text-light" aria-current="page" href="index.html">Home</a>
 
                 <a class="nav-link text-light " href="html/about-us.html">About Us</a>
 
-                <a class="nav-link text-light" href="html/pricing.html">Pricing</a>
+                <a class="nav-link text-light" href="#pricing">Pricing</a>
 
                 <a class="nav-link text-light" href="html/contact-us.html">Contact Us</a>
 
@@ -95,15 +95,8 @@
         </div>
     </div>
 
+
     <div class="container marketing">
-
-
-
-
-        <!-- START THE FEATURETTES -->
-
-<!--        Parallax-->
-        <div class="parallax"></div>
 
         <hr class="featurette-divider">
 
@@ -145,7 +138,8 @@
 
         <hr class="featurette-divider">
 
-                <div class="row">
+        <p id="pricing"></p>
+                <div class="row ">
                     <div class="col-lg-4">
                         <h1 class="text-black display-3">$10 / Month</h1>
                         <h2 class="text-muted">Basic</h2>
@@ -165,19 +159,15 @@
                         <p><a class="btn btn-secondary text-light" href="#" role="button">Register</a></p>
                     </div><!-- /.col-lg-4 -->
                 </div><!-- /.row -->
+    </div>
 
-        <!-- /END THE FEATURETTES -->
+    <!--        Parallax-->
+    <div class="container">
+        <div class="parallax">
 
-    </div><!-- /.container -->
+        </div>
+    </div>
 
-
-
-    <!-- FOOTER -->
-<!--    <footer class="container">-->
-<!--        <p class="float-end"><a href="#">Back to top</a></p>-->
-<!--        <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>-->
-
-<!--    </footer>-->
 
     <div class="mt-5 pt-5 pb-5 footer bg-dark">
         <div class="container">
@@ -191,7 +181,7 @@
                     <h4 class="mt-lg-0 mt-sm-3 text-light">Links</h4>
                     <ul class="m-0 p-0 ">
                         <li><a href="html/about-us.html" class="text-decoration-none text-light">About Us</a></li>
-                        <li><a href="html/pricing.html" class="text-decoration-none text-light">Pricing</a></li>
+                        <li><a href="#pricing" class="text-decoration-none text-light">Pricing</a></li>
                         <li><a href="html/contact-us.html" class="text-decoration-none text-light">Contact Us</a></li>
                         <li><a href="html/location.html" class="text-decoration-none text-light">Location</a></li>
                         <li><a href="html/register.html" class="text-decoration-none text-light">Register</a></li>
@@ -201,7 +191,7 @@
                     <h4 class="mt-lg-0 mt-sm-4 text-light"><a href="html/location.html" class="text-decoration-none text-light">Location</a></h4>
                     <p class="text-light">22, Lorem ipsum dolor, consectetur adipiscing</p>
                     <p class="mb-0 text-light"><i class="fa fa-phone mr-3"></i>(541) 754-3010</p>
-                    <p class="text-light" <i class="fa fa-envelope-o mr-3 text-light"></i>info@hsdf.com</p>
+                    <p class="text-light"><i class="fa fa-envelope-o mr-3 text-light"></i>info@hsdf.com</p>
                 </div>
             </div>
             <div class="row mt-5">
@@ -212,8 +202,6 @@
         </div>
     </div>
 </main>
-
-<div id="map"></div>
 
     <script>
         function initMap() {
@@ -229,8 +217,8 @@
         }
     </script>
 
-    <script async src="index.js"></script>
     <script async src="google-map.js"></script>
+    <script async src="index.js"></script>
     <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
